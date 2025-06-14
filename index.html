@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DATTOMA CASH L.L.C.</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: white;
+      color: black;
+      line-height: 1.6;
+    }
+    header, footer {
+      padding: 20px;
+      background: #000;
+      color: white;
+      text-align: center;
+    }
+    .container {
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    h1, h2, h3 {
+      margin-top: 0;
+    }
+    a.button {
+      display: inline-block;
+      background: black;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 10px;
+      text-decoration: none;
+    }
+    form {
+      display: grid;
+      gap: 15px;
+      margin-top: 20px;
+    }
+    input, textarea, select {
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      width: 100%;
+    }
+    button {
+      background: black;
+      color: white;
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>DATTOMA CASH L.L.C.</h1>
+    <a href="#sell" class="button">Get a Cash Offer Now</a>
+  </header>
+
+  <div class="container">
+    <section>
+      <h2>We Buy Houses Nationwide</h2>
+      <p>Sell your house fast — no agents, no fees, no repairs. Get a fair cash offer today.</p>
+    </section>
+
+    <section id="about">
+      <h3>About Us</h3>
+      <p>DATTOMA CASH L.L.C. is a professional residential real estate wholesaling company. We connect motivated sellers with serious cash buyers across the United States. Whether you're dealing with foreclosure, divorce, inherited property, or just need to sell fast — we’re here to help.</p>
+    </section>
+
+    <section id="sell">
+      <h3>Sell Your House</h3>
+      <p>Fill out the quick form below and we’ll get you a cash offer within 24 hours.</p>
+      <form action="https://formspree.io/f/mvgrrzry" method="POST">
+        <input type="text" name="name" placeholder="Full Name" required />
+        <input type="email" name="email" placeholder="Email Address" required />
+        <input type="tel" name="phone" placeholder="Phone Number" required />
+        <input type="text" name="address" placeholder="Property Address" required />
+        <textarea name="details" placeholder="Tell us about your property or situation" rows="4"></textarea>
+        <button type="submit">Get My Cash Offer</button>
+      </form>
+    </section>
+
+    <section id="buyers">
+      <h3>Cash Buyer Application</h3>
+      <form action="https://formspree.io/f/mvgrrzry" method="POST">
+        <input type="text" name="buyerName" placeholder="Full Name" required />
+        <input type="email" name="buyerEmail" placeholder="Email Address" required />
+        <input type="tel" name="buyerPhone" placeholder="Phone Number" required />
+        <input type="text" name="targetZip" placeholder="Target Zip Codes (e.g. 10001, 10002)" />
+        <input type="text" name="criteria" placeholder="Buying Criteria (beds, baths, etc.)" />
+        <input type="text" name="priceRange" placeholder="Price Range" />
+        <select name="cashBuyer">
+          <option value="">Are you buying with cash?</option>
+          <option value="Yes">Yes</option>
+          <option value="No">No</option>
+        </select>
+        <input type="text" name="buyingTimeline" placeholder="How soon are you looking to buy?" />
+        <button type="submit">Join Buyer List</button>
+      </form>
+    </section>
+
+    <section id="contact">
+      <h3>Contact</h3>
+      <p>Email us anytime: <a href="mailto:jackdattomarealty@gmail.com">jackdattomarealty@gmail.com</a></p>
+    </section>
+  </div>
+
+  <footer>
+    &copy; 2025 DATTOMA CASH L.L.C. All rights reserved.
+  </footer>
+</body>
+</html>
